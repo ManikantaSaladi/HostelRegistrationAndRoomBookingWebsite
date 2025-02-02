@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="HotelRegistration.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+        .auto-style2 {
+            text-align: left;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style3">
+            <header>
+                <nav class="auto-style2">
+
+                    <asp:HyperLink ID="HyperLink1" runat="server" ImageHeight="70px" ImageUrl="~/Pictures/logo.png" ImageWidth="150px" NavigateUrl="~/MainPage.aspx">HyperLink</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+
+                    <asp:HyperLink ID="userregistration" runat="server" CssClass="auto-style1" Font-Underline="False" NavigateUrl="~/UserRegistrationPage.aspx" Target="_parent">User Registration</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="userdetails" runat="server" CssClass="auto-style1" Font-Underline="False" NavigateUrl="~/LoginPage.aspx" Target="_parent">User Details</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="roombooking" runat="server" CssClass="auto-style1" Font-Underline="False" NavigateUrl="~/RoomBookingPage.aspx" Target="_parent">Room Booking</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="bookingdetails" runat="server" CssClass="auto-style1" Font-Underline="False" NavigateUrl="~/BookingDetails.aspx" Target="_parent">Booking Details</asp:HyperLink>
+
+                </nav>
+            </header>
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br />
+            <asp:Image ID="Image1" runat="server" Height="178px" ImageUrl="~/Pictures/logo.png" Width="250px" />
+            <br />
+            <asp:HyperLink ID="HyperLink2" runat="server" ImageHeight="50px" ImageUrl="~/Pictures/WhatsApp Image 2025-01-24 at 7.20.33 PM.jpeg" ImageWidth="50px" NavigateUrl="https://www.linkedin.com/in/pandu-venkata-manikanta-saladi-00348917a/">HyperLink</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink3" runat="server" ImageHeight="50px" ImageUrl="~/Pictures/WhatsApp Image 2025-01-24 at 7.20.33 PM (1).jpeg" ImageWidth="50px" NavigateUrl="https://www.manikantasaladi4444@gmail.com">HyperLink</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink4" runat="server" ImageHeight="50px" ImageUrl="~/Pictures/WhatsApp Image 2025-01-24 at 7.20.33 PM (3).jpeg" ImageWidth="50px" NavigateUrl="https://www.facebook.com/share/149Z7hBmFZ/">HyperLink</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:HyperLink ID="HyperLink5" runat="server" ImageHeight="50px" ImageUrl="~/Pictures/instalogo.jpg" ImageWidth="50px" NavigateUrl="https://www.instagram.com/manikanta_naidu_saladi_335/profilecard/?igsh=ZnNxamZnZ29ubDdm">HyperLink</asp:HyperLink>
+        </div>
+    </form>
+</body>
+</html>
