@@ -21,7 +21,7 @@
     <asp:Label ID="Label1" runat="server" CssClass="auto-style5" Text="Contact Us"></asp:Label>
     <br />
     <br />
-    <asp:Label ID="Label2" runat="server" CssClass="auto-style1" Text="Any bike renting issue? Feel free to contact us."></asp:Label>
+    <asp:Label ID="Label2" runat="server" CssClass="auto-style1" Text="Any Room Booking issue? Feel free to contact us."></asp:Label>
         <br />
     <br />
     <br />
